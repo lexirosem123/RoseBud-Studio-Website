@@ -6,44 +6,54 @@
 </head>
 
 <body>
+    <main>
+        <section class="header">
+            <div class="header-content">
+                <h2>Welcome to RoseBud Studio</h2>
+                <p>We are an independent video game and software developement studio.</p>
+            </div>
+        </section>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="news.html">News</a>
+            <a href="support.html">Support</a>
+        </nav>
 
-    <h2>Welcome to RoseBud Studio</h2>
-    <p>We are an independent video game and software developement studio.</p>
-
-    <nav class="navbar">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="support.html">Support</a>
-    </nav>
-    
-    <section class="news-section">
-        <h2>News & Updates</h2>
-
-        <article class="news-card">
-            <p class="news-date">June 3, 2026</p>
-            <h4>Website Launch</h4>
-            <p>
-            Welcome to my official dev website! I’ll be using this space to share
-            updates about my games, projects, and upcoming releases.
+        <section class="bio-section">
+            <h2>What We Do</h2>
+            <p>We are an indie dev team made up of 1 member. Open to working with others, but focused on creating
+                personally driven and inspired projects rather than big sellers. We create storylines, develop software,
+                design websites, and dabble in anything creative!
             </p>
-            <a href="#">Read More</a>
-        </article>
+        </section>
+        
+        <section class="news-section">
+            <h2>News & Updates</h2>
 
-        <article class="news-card">
-            <p class="news-date">May 28, 2026</p>
-            <h4>Working on My First Game Page</h4>
-            <p>
-            I’m currently setting up project pages where I can share screenshots,
-            progress notes, and development updates.
-            </p>
-            <a href="#">Read More</a>
-        </article>
-    </section>
+            <div class="news-grid" id="latest-articles"></div>
 
-</body>
+            <a href="news.html" class="project-button">View All News</a>
+        </section>
+
+        <section class="recent-projects">
+            <h2>New & Upcoming Projects</h2>
+
+            <div class="projects-grid" id="latest-projects"></div>
+
+            <a href="projects.html" class="project-button">View All Projects</a>
+        </section>
+
+        <script src="js/articles.js"></script>
+        <script src="js/latestarticles.js"></script>
+
+        <script src="js/projects.js"></script>
+        <script src="js/latestprojects.js"></script>
+    </main>
 
 <footer>
 
 </footer>
+</body>
 </html>
