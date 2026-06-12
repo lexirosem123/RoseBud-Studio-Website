@@ -170,6 +170,11 @@ footer {
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 
+.news-grid {
+    margin: 40px auto;
+    padding: 30px;
+}
+
 .article {
     max-width: 800px;
     margin: 60px auto;
