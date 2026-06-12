@@ -160,7 +160,7 @@ footer {
 }
 
 .project-button:hover {
-    background: #3a3a3a;
+    background: #494949;
 }
 
 .project-info,
@@ -210,13 +210,16 @@ footer {
 
 .all-news-button {
   display: inline-block;
-  float: left;
   margin-top: 10px;
   padding: 10px 16px;
   background: #222;
   color: white;
   text-decoration: none;
   border-radius: 8px;
+}
+
+.all-news-button:hover {
+    background: #494949;
 }
 
 .articles-section{
@@ -250,6 +253,10 @@ footer {
   color: white;
   text-decoration: none;
   border-radius: 8px;
+}
+
+.article-button:hover {
+    background: #494949;
 }
 
 .article-preview {
@@ -349,6 +356,10 @@ footer {
     background: #222;
     color: white;
     cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #494949;
 }
 
 .support-stats {
