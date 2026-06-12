@@ -171,6 +171,8 @@ footer {
 }
 
 .news-grid {
+    display: grid;
+    gap: 25px;
     margin: 40px auto;
     padding: 30px;
 }
