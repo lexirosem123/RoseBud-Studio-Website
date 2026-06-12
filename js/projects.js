@@ -14,7 +14,7 @@ const projects = [
         startDate: "2026",
         summary: "A goofy collection game about gathering items, sorting trash, and earning as much as possible before time runs out.",
         image: "images/garbage-dash.png",
-        file: "projects/garbage-dash.html",
+        file: "projects/garbagedash.html",
         tags: ["game", "prototype"]
     },
     {
