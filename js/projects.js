@@ -1,7 +1,7 @@
 const projects = [
     {
         title: "Glowkeeper",
-        status: "In Development",
+        status: "Complete",
         startDate: "2025",
         summary: "A cozy farming survival game where lantern light keeps crops alive in a world overtaken by darkness.",
         image: "images/glowkeeper.png",
@@ -25,5 +25,14 @@ const projects = [
         image: "",
         file: "projects/liftedinvoice.html",
         tags: ["software", "in development"]
+    },
+    {
+        title: "GardenTop Cafe",
+        status: "In Development",
+        startDate: "2025",
+        summary: "A cozy farming and cafe management game. The player is taking over a closed cafe on a remote island with lots of character!",
+        image: "",
+        file: "",
+        tags: ["game","godot", "in development"]
     }
 ];
