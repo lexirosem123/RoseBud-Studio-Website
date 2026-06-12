@@ -16,10 +16,10 @@ const articles = [
         tags: ["liftedinvoice"]
     },
     {
-        title: "LiftedInvoice Progress Update 2",
+        title: "Meeting with the Client",
         date: "2026-06-12",
         displayDate: "June 12, 2026",
-        summary: "Collecting feedback from the client.",
+        summary: "Collecting feedback from the client. Learning how to work with the client whether than inspite of them. It was super helpful to get a new set of eyes on it.",
         file: "news/liftedinvoiceupdatearticle2.html",
         tags: ["liftedinvoice"]
     }
