@@ -160,8 +160,7 @@ footer {
 }
 
 .project-info,
-.project-socials,
-.project-news {
+.project-socials {
     max-width: 1100px;
     margin: 40px auto;
     padding: 30px;
