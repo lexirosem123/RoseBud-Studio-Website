@@ -13,7 +13,7 @@ const articles = [
         displayDate: "June 3, 2026",
         summary: "Learning how to connect Google Calendar API for a scheduling system.",
         file: "news/liftedinvoiceupdatearticle.html",
-        tags: ["liftedinvoice"]
+        tags: ["liftedinvoice", "devlog"]
     },
     {
         title: "Meeting with the Client",
@@ -21,7 +21,7 @@ const articles = [
         displayDate: "June 12, 2026",
         summary: "Collecting feedback from the client. Learning how to work with the client whether than inspite of them. It was super helpful to get a new set of eyes on it.",
         file: "news/liftedinvoiceupdatearticle2.html",
-        tags: ["liftedinvoice"]
+        tags: ["liftedinvoice", "devlog"]
     }
 ];
 
