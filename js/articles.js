@@ -15,6 +15,14 @@ const articles = [
         file: "news/liftedinvoiceupdatearticle.html",
         tags: ["liftedinvoice"]
     }
+    {
+        title: "LiftedInvoice Progress Update 2",
+        date: "2026-06-12",
+        displayDate: "June 12, 2026",
+        summary: "Collecting feedback from the client.",
+        file: "news/liftedinvoiceupdatearticle2.html",
+        tags: ["liftedinvoice"]
+    }
 ];
 
 const glowkeeperArticles = articles.filter(article =>
