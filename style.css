@@ -159,6 +159,10 @@ footer {
   border-radius: 8px;
 }
 
+.project-button:hover {
+    background: #3a3a3a;
+}
+
 .project-info,
 .project-socials {
     max-width: 1100px;
