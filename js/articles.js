@@ -14,7 +14,7 @@ const articles = [
         summary: "Learning how to connect Google Calendar API for a scheduling system.",
         file: "news/liftedinvoiceupdatearticle.html",
         tags: ["liftedinvoice"]
-    }
+    },
     {
         title: "LiftedInvoice Progress Update 2",
         date: "2026-06-12",
