@@ -32,3 +32,11 @@ const glowkeeperArticles = articles.filter(article =>
 const liftedinvoiceArticles = articles.filter(article =>
     article.tags.includes("liftedinvoice")
 );
+
+const gardentopcafeArticles = articles.filter(article =>
+    article.tags.includes("gardentopcafe")
+);
+
+const garbagedashArticles = articles.filter(article =>
+    article.tags.includes("garbagedash")
+);
