@@ -13,7 +13,7 @@ const projects = [
         status: "Prototype",
         startDate: "2026",
         summary: "A goofy collection game about gathering items, sorting trash, and earning as much as possible before time runs out.",
-        image: "images/garbage-dash.png",
+        image: "images/GarbageDash.png",
         file: "projects/garbagedash.html",
         tags: ["game", "prototype"]
     },
@@ -31,8 +31,8 @@ const projects = [
         status: "In Development",
         startDate: "2025",
         summary: "A cozy farming and cafe management game. The player is taking over a closed cafe on a remote island with lots of character!",
-        image: "",
-        file: "",
+        image: "images/GardenTop Cafe.png",
+        file: "projects/gardentopcafe.html",
         tags: ["game","godot", "in development"]
     }
 ];
