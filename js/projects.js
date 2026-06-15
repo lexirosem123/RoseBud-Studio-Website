@@ -4,7 +4,7 @@ const projects = [
         status: "Complete",
         startDate: "2025",
         summary: "A cozy farming survival game where lantern light keeps crops alive in a world overtaken by darkness.",
-        image: "images/glowkeeper.png",
+        image: "images/Screenshot 2026-06-12 102247.png",
         file: "projects/glowkeeper.html",
         tags: ["game", "godot", "featured"]
     },
@@ -21,8 +21,8 @@ const projects = [
         title: "LiftedInvoice",
         status: "In Development",
         startDate: "2026",
-        summary: "",
-        image: "",
+        summary: "What started out as a joke from my dad, quickly became a goal for me. An invoicing software for his garage and hopefully a publishable software when completed!",
+        image: "images/Screenshot 2026-06-05 112325.png",
         file: "projects/liftedinvoice.html",
         tags: ["software", "in development"]
     },
