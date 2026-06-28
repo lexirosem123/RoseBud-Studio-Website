@@ -34,5 +34,14 @@ const projects = [
         image: "images/GardenTop Cafe.png",
         file: "projects/gardentopcafe.html",
         tags: ["game","godot", "in development"]
-    }
+    },
+    {
+        title: "Seriously Silly",
+        status: "In Development",
+        startDate: "2026",
+        summary: "It's a super serious 9-5 simulator, with a silly twist.",
+        image: "images/SeriouslySilly.png",
+        file: "projects/seriouslysilly.html",
+        tags: ["game","godot", "in development"]
+    },
 ];

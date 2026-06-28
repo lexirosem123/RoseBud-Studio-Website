@@ -22,7 +22,15 @@ const articles = [
         summary: "Collecting feedback from the client. Learning how to work with the client whether than inspite of them. It was super helpful to get a new set of eyes on it.",
         file: "news/liftedinvoiceupdatearticle2.html",
         tags: ["liftedinvoice", "devlog"]
-    }
+    },
+    {
+        title: "Deadlines are not my Specialty",
+        date: "2026-06-27",
+        displayDate: "June 27, 2026",
+        summary: "I signed up for the JuniperDev Game Jam I believe 2 days late as I did not see it get posted until then; and I was determined to still complete a game and upload it to be judged. Unfortunately, I found out a few minutes ago that the late submission",
+        file: "news/seriouslysillynews.html",
+        tags: ["seriouslysilly"]
+    },
 ];
 
 const glowkeeperArticles = articles.filter(article =>
@@ -39,4 +47,8 @@ const gardentopcafeArticles = articles.filter(article =>
 
 const garbagedashArticles = articles.filter(article =>
     article.tags.includes("garbagedash")
+);
+
+const SeriouslySillyArticles = articles.filter(article =>
+    article.tags.includes("seriouslysilly")
 );
