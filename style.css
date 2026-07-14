@@ -14,7 +14,7 @@ main {
 
 .header {
     background-image: url('images/ChatGPT\ Image\ Jun\ 3\,\ 2026\,\ 02_43_27\ PM.png');
-    height: 350px;
+    height: 420px;
     margin: 0;
     overflow: hidden;
     object-fit: cover;
@@ -70,10 +70,13 @@ body h3 {
 
 .navbar {
   display: flex;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
   justify-content: center;
   gap: 0px;
   padding: 0px;
-  background: #01582e;
+  background: #012f19;
 }
 
 .navbar a {
@@ -136,13 +139,15 @@ footer::before {
 }
 
 .bio-section p {
-    background: white;
-    padding: 35px;
+    padding-left: 95px;
+    padding-right: 95px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    line-height: 1.4;
     font-size: large;
     margin-left: 85px;
     margin-right: 85px;
-    border-radius: 14px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+    font-family: "Press Start 2P";
 }
 
 .recent-projects{
@@ -201,6 +206,10 @@ footer::before {
     max-width: 1100px;
     margin: 0 auto;
     padding: 60px 20px;
+}
+
+.about-page h2{
+    padding: 35px;
 }
 
 .about-person{
@@ -473,6 +482,10 @@ footer::before {
     max-width: 1100px;
     margin: 0 auto;
     padding: 60px 20px;
+}
+
+.support-page h1{
+    padding-top: 30px;
 }
 
 .support-grid {
