@@ -31,6 +31,14 @@ const articles = [
         file: "news/seriouslysillynews.html",
         tags: ["seriouslysilly"]
     },
+    {
+        title: "Finally Focusing on a Decent Itch.io Page",
+        date: "2026-07-14",
+        displayDate: "July 14, 2026",
+        summary: "Working on a game is a process in itself... but I always struggle to make a good landing page for the work that I have put in on said game. Thankfully, Itch.io does make this a much easier process for developers, but that still requires me to put in some extra work to make the page look appealing.",
+        file: "news/itchpageupload.html",
+        tags: ["littlerescuesquad"]
+    },
 ];
 
 const glowkeeperArticles = articles.filter(article =>
@@ -51,4 +59,8 @@ const garbagedashArticles = articles.filter(article =>
 
 const SeriouslySillyArticles = articles.filter(article =>
     article.tags.includes("seriouslysilly")
+);
+
+const littlerescuesquadArticles = articles.filter(article =>
+    article.tags.includes("littlerescuesquad")
 );
