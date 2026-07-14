@@ -15,7 +15,7 @@ const projects = [
         summary: "A goofy collection game about gathering items, sorting trash, and earning as much as possible before time runs out.",
         image: "images/GarbageDash.png",
         file: "projects/garbagedash.html",
-        tags: ["game", "prototype"]
+        tags: ["game", "godot", "prototype"]
     },
     {
         title: "LiftedInvoice",
@@ -42,6 +42,15 @@ const projects = [
         summary: "It's a super serious 9-5 simulator, with a silly twist.",
         image: "images/SeriouslySilly.png",
         file: "projects/seriouslysilly.html",
+        tags: ["game","godot", "in development"]
+    },
+    {
+        title: "Little Rescue Squad",
+        status: "In Development",
+        startDate: "2026",
+        summary: "Co-op collection game.",
+        image: "images/SeriouslySilly.png",
+        file: "projects/littlerescuesquad.html",
         tags: ["game","godot", "in development"]
     },
 ];

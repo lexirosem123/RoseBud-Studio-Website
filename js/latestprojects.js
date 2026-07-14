@@ -1,6 +1,6 @@
 const latestProjectsContainer = document.getElementById("latest-projects");
 
-const latestProjects = projects.slice(0, 3);
+const latestProjects = projects.slice(0, 4);
 
 latestProjects.forEach(project => {
     const card = document.createElement("div");
