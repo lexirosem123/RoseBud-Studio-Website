@@ -38,7 +38,7 @@ const projects = [
     {
         title: "GardenTop Cafe",
         status: "In Development",
-        startDate: "2025",
+        startDate: "2025 - present",
         summary: "A cozy farming and cafe management game. The player is taking over a closed cafe on a remote island with lots of character!",
         image: "images/GardenTop Cafe.png",
         file: "projects/gardentopcafe.html",

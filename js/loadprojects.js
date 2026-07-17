@@ -21,7 +21,7 @@ projects.forEach(project => {
             <p>${project.summary}</p>
 
             <p class="project-date">
-                Started: ${project.startDate}
+                ${project.startDate}
             </p>
 
             <a href="${project.file}" class="project-button">
