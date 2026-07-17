@@ -62,12 +62,12 @@ main {
 
 .scroll-indicator.hidden {
     opacity: 0;
-    transform: translateY(-5%);
+    transform: translateY(-30%);
     pointer-events: none;
 }
 
 .scroll-text {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     writing-mode: vertical-rl;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -227,6 +227,7 @@ footer::before {
 
 .recent-projects{
     padding: 25px;
+    margin-bottom: 0px;
     background-color: #012f19;
     background-size: cover;
     align-content: center;
@@ -270,6 +271,15 @@ footer::before {
   margin-top: 5px;
 }
 
+.gallery{
+    background-color: #012f19;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    align-content: center;
+    color: white;
+}
+
 .gallery-wrapper {
     width: 100%;
     max-width: 1100px;
@@ -278,6 +288,8 @@ footer::before {
     box-sizing: border-box;
     overflow: hidden;
     margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #012f19;
 }
 
 .scroll-gallery {
