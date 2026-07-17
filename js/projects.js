@@ -10,7 +10,7 @@ const projects = [
     },
     {
         title: "Seriously Silly",
-        status: "In Development",
+        status: "Complete",
         startDate: "2026",
         summary: "It's a super serious 9-5 simulator, with a silly twist.",
         image: "images/Seriously Silly.png",

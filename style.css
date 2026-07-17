@@ -335,6 +335,9 @@ footer::before {
   margin-bottom: 5px;
 }
 
+
+
+
 .about-page{
     max-width: 1100px;
     margin: 0 auto;
@@ -370,6 +373,10 @@ footer::before {
     margin: 0;
     padding: 0;
 }
+
+
+
+
 
 .page-intro {
   margin-bottom: 35px;
@@ -454,6 +461,11 @@ footer::before {
     background: #616060;
 }
 
+
+
+
+
+
 .project-info {
     max-width: 1100px;
     margin: 40px auto;
@@ -471,6 +483,42 @@ footer::before {
     background: white;
     border-radius: 16px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.play-game-section {
+    width: min(85%, 1600px);
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.game-embed {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,.25);
+}
+
+.game-embed iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+.game-controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.game-controls .project-button {
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
 }
 
 .project-news{
