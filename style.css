@@ -13,18 +13,17 @@ main {
 }
 
 .header {
-    height: auto;
-    margin: 0;
+    border-radius: 55px;
     overflow: hidden;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    align-items: center;
-    justify-content: center;
 
-    display: flex;
+    width: min(95%, 1400px);
+    margin: 75px auto 0;
     
+}
+
+.header img {
+    width: 100%;
+    display: block;
 }
 
 .header-content {
@@ -42,92 +41,13 @@ main {
     font-size: 1.1rem;
 }
 
-.scroll-indicator {
-    position: fixed;
-    right: 30px;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 1000;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-
-    opacity: 1;
-    transition:
-        opacity 0.5s ease,
-        transform 0.5s ease;
-}
-
-.scroll-indicator.hidden {
-    opacity: 0;
-    transform: translateY(-30%);
-    pointer-events: none;
-}
-
-.scroll-text {
-    font-size: 0.9rem;
-    writing-mode: vertical-rl;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-/* Container for the animated arrow */
-.scroll-arrow {
-    position: relative;
-    width: 30px;
-    height: 55px;
-    animation: arrow-swipe 1.6s ease-in-out infinite;
-}
-
-/* The two sides of the arrow */
-.scroll-arrow span {
-    position: absolute;
-    bottom: 10px;
-    width: 18px;
-    height: 3px;
-    background: currentColor;
-    border-radius: 4px;
-}
-
-.scroll-arrow span:first-child {
-    left: 0;
-    transform: rotate(45deg);
-}
-
-.scroll-arrow span:last-child {
-    right: 0;
-    transform: rotate(-45deg);
-}
-
-@keyframes arrow-swipe {
-    0% {
-        transform: translateY(-10px);
-        opacity: 0;
-    }
-
-    30% {
-        opacity: 1;
-    }
-
-    70% {
-        opacity: 1;
-    }
-
-    100% {
-        transform: translateY(18px);
-        opacity: 0;
-    }
-}
-
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #6b9573;
+    background-color: #8ed18a;
     margin: 0;
 }
 
@@ -151,27 +71,35 @@ body h3 {
   justify-content: center;
   gap: 0px;
   padding: 0px;
-  background: #012f19;
+  background: #1f6202;
 }
 
 .navbar a {
   color: white;
+  font-family: "Press Start 2P";
   text-decoration: none;
   display: block;
   padding: 16px;
+  padding-top: 20px;
   padding-left: 35px;
   padding-right: 35px;
 }
 
 .navbar a:hover {
   color: #000000;
-  background-color: #6b9573;
+  background-color: #8ed18a;
+  font-family: "Press Start 2P";
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
 }
 
 .navbar a.active {
   color: #000000;
   font-weight: bold;
-  background-color: #6b9573;
+  background-color: #8ed18a;
+  font-family: "Press Start 2P";
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
 }
 
 footer {
@@ -226,6 +154,12 @@ footer::before {
 }
 
 .recent-projects{
+    border-radius: 55px;
+    overflow: hidden;
+
+    width: min(95%, 1400px);
+    margin: 75px auto 0;
+
     padding: 25px;
     margin-bottom: 0px;
     background-color: #012f19;
@@ -241,6 +175,20 @@ footer::before {
 
 .projects-grid{
     padding: 20px;
+}
+
+.recent-projects .project-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: #8ed18a;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.recent-projects .project-button:hover {
+    background: #616060;
 }
 
 .news-section {
@@ -272,12 +220,11 @@ footer::before {
 }
 
 .gallery{
-    background-color: #012f19;
     margin: 0px;
     padding: 0px;
     background-size: cover;
     align-content: center;
-    color: white;
+    color: black;
 }
 
 .gallery-wrapper {
@@ -289,7 +236,6 @@ footer::before {
     overflow: hidden;
     margin-top: 25px;
     margin-bottom: 25px;
-    background-color: #012f19;
 }
 
 .scroll-gallery {
